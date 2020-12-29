@@ -1,0 +1,10 @@
+Documentation					3.50	out of 3.5
+Testing Docs					3.00	out of 3.5
+Code correctness				1.25	out of 1.5
+Code Clairty (organization)		1.50	out of 1.5
+Total							9.25	out of 10
+
+
+Comments:
+The code compiled, but it did not work as expected. I believe this might be because you are directly multiplying theTask->mm->rss and theTask->mm->total_vm by the page size. This will result in bad results for all processes in your case. You should have copied everything to another integer and then multiply it by the page size. Right now, it ruins the kernel each time you run your code. Your test doc does not adress this issue and contradicts your results.
+There are few lines of code in your docs, try to add more for future labs.

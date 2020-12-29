@@ -1,0 +1,61 @@
+Documentation  					3		out of 3.5
+Testing Docs 					1		out of 3.5
+Code correctness 				0.5		out of 1.5
+Code Clairty (organization) 	1.0		out of 1.5
+Total 							5.5		out of 10
+
+
+Comments:
+The code did not compile (error in line 351: you should not declare "int i" inside for loop
+since you are using c language not cpp. The documentations are good, but a little short. 
+I suggest you to follow these instructions if you also want to get the full mark for future labs.
+
+
+	
+1. 	Currently, you have included few lines of comments available in your code. 
+	However, the comments should follow the examples provided for "all" functions. i.e. start 
+	with \\+ and end with \\- and include "purpose", "Parameters", and "function".
+	
+2.	Using "script" command to make the testing docs is good. However, the explanaitions 
+	were very short and limited, especially for part 2. Your tests were not very clear as well.
+	
+3.	Although I could not compile your codes, it's clear that your implementation of 'ls' is not 
+	complete. Also "free" on line 296 is not releasing anything. Finally, you are not calling doCommand in your
+	main, therefore I am not sure how you managed to get the results in your tests. I speculate that the tests were
+	performed in the default linux environment.
+
+	
+Documentation example:
+	Code Documentation
+	
+		Student Name 1/Student Number 1
+		Student Name 2/Student Number 2
+
+		File name: shell.c
+
+		Objective: Write a C program that .... (similar to what you currently have)
+
+		Code description:	
+			The main function consists of ....
+
+			Splitting the command line into words is ...
+			skipChar ...
+			SplitCommandLine ...
+
+			The main body of the function is a loop that ...
+						
+			The dispatch table is ...
+			
+			exitFunc(): ...
+			pwdFunc(): ...
+			lsFunc(): ...
+			cdFunc(): ...
+			
+	Test Documentation
+	
+		Student Name 1/Student Number 1
+		Student Name 2/Student Number 2
+
+		File name: shell
+		
+		We performed the following tests: ...

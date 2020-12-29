@@ -1,0 +1,11 @@
+Documentation  					3.5		out of 3.5
+Testing Docs 					2.0		out of 3.5
+Code correctness 				1.25	out of 1.5
+Code Clairty (organization) 	1.5		out of 1.5
+Total 							8.25		out of 10.0
+
+
+Comments:
+good documentations.
+The first script worked as expected. But there are some technical and formatting problems for the second script. Please refer to the solutions for the correct term on how to use awk and grep.
+No test files provided for the second script.

@@ -1,0 +1,17 @@
+Script started on 2020-09-27 17:36:13-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="66" LINES="22"]
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ 
+[K]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ 
+[K]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ pwd
+/home/shiyanboxer/projects/helloworld
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ ls
+[0m[01;32mshell[0m  shell.cpp  test1.txt
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ cd documents
+bash: cd: documents: No such file or directory
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ cd hell[K[K[K[K..
+]0;shiyanboxer@ShiyanBoxer: ~/projects[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects[00m$ cd helloworld
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ exitFunction
+exitFunction: command not found
+]0;shiyanboxer@ShiyanBoxer: ~/projects/helloworld[01;32mshiyanboxer@ShiyanBoxer[00m:[01;34m~/projects/helloworld[00m$ exite[K
+exit
+
+Script done on 2020-09-27 17:39:49-04:00 [COMMAND_EXIT_CODE="127"]
